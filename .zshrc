@@ -82,3 +82,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+
+#go
+
+export GOROOT=/usr/local/go
+export GOPATH=~/golib:~/goproject
+export GOBIN=~/gobin
+export PATH=$PATH:$GOROOT/bin:$GOBIN
+
